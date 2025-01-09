@@ -24,7 +24,7 @@
   ],
   "author": "Donald Moore",
   "license": "ISC",
-  "description": "`timeout`: Pause the event loop in a JavaScript process.",
+  "description": "Shared `sleep` module: Pause the event loop in a JavaScript process — similar to `timeout`.",
   "publishConfig": {
     "access": "public"
   },
