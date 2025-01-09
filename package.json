@@ -1,4 +1,32 @@
 {
-  "name": "sleep",
+  "name": "@imgnx/sleep",
+  "version": "1.1.3",
+  "main": "sleep.js",
+  "language": "JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imgnxorg/sleep.git"
+  },
+  "scripts": {
+    "start": "ts=$(date +%s) && sleep 1 && echo \"$ts\" && echo 'It works!'",
+    "test": "ts=$(date +%s) && sleep 1 && duration=$(($(date +%s) - $ts)) && echo $duration && echo 'It works!'"
+  },
+  "keywords": [
+    "sleep",
+    "await",
+    "async",
+    "imgnx",
+    "util",
+    "utils",
+    "imgnx-shared",
+    "imgnx-shared-util",
+    "imgnx-shared-utils"
+  ],
+  "author": "Donald Moore",
+  "license": "ISC",
+  "description": "`timeout`: Pause the event loop in a JavaScript process.",
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "yarn@4.5.3"
 }
